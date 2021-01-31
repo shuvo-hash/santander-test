@@ -1,0 +1,500 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* for navbar */
+
+/* navbar ends */
+.collapse:not(.show) {
+  display: none;
+}
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.navbar {
+  background-color: #363f48;
+  height: 70px;
+}
+.navbar .navbar-brand {
+  padding-bottom: 20px;
+}
+
+.top-menu .nav-item .nav-link {
+  font-family: "Assistant", sans-serif;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 15px;
+}
+.top-menu .nav-item .nav-link:hover {
+  color: #ff6a5c;
+  font-weight: bolder;
+}
+
+.card-details {
+  padding-top: 22px;
+  padding-left: 22px;
+  width: 100%;
+  height: auto;
+}
+.first-card {
+  align-items: center;
+  position: relative;
+  background-image: url("/img/Rectangle.png");
+  background-size: cover;
+}
+
+.first-card-headeing {
+  font-family: "Rubik", sans-serif;
+  color: #ff6a5c;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.card-text {
+  font-family: "Assistant", sans-serif;
+  font-size: 22px;
+  color: #fff;
+}
+
+.card-button {
+  background-color: #ff6a5c;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 30px;
+  font-weight: 700;
+  border: none;
+}
+.card-product {
+  width: 100%;
+  height: 600px;
+}
+.second-card {
+  background-image: url("/img/bg-who.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.second-card-title {
+  font-family: "Assistant", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.second-card-text {
+  font-family: "Assistant", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.product {
+  background-color: #0b131e;
+
+  /* height: 570px; */
+}
+
+.product-heading {
+  text-align: center;
+}
+.products-title {
+  font-family: "Assistant", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #fff;
+  padding: 50px 0 20px 0;
+}
+
+.products-dash {
+  border: 2px solid #ff6a5c;
+  width: 30px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.product-element {
+  padding-top: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-card {
+  background: #111d2d;
+
+  width: 270px;
+  /* height: 280px; */
+  margin-bottom: 30px;
+}
+
+.product-title {
+  font-family: "Rubik", sans-serif;
+  top: 70%;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.product-dash {
+  top: 80%;
+  border: 2px solid #ff6a5c;
+  width: 30px;
+}
+.product-img {
+  bottom: 30%;
+  width: 100%;
+  height: 280px;
+}
+.product-last-img {
+  width: 150px;
+  height: 280px;
+  margin-left: 30px;
+}
+.personalizzazione-card {
+  background-image: url("/img/Rectangle.png");
+  width: 100%;
+  background-size: cover;
+}
+.personalizzazione {
+  align-items: center;
+  padding: 30px;
+}
+.personalizzazione-content {
+  top: 50%;
+}
+.personalizzazione-img {
+  height: 400px;
+}
+
+.personalizzazione-title {
+  font-family: "Assistant", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+.personalizzazione-text {
+  font-family: "Rubik", sans-serif;
+}
+
+.doss {
+  background-color: #0b131e;
+}
+.doss-head-text {
+  font-family: "Assistant", sans-serif;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 300;
+  padding: 50px 0px 20px 6%;
+}
+
+.doss-dash {
+  border: 2px solid #ff6a5c;
+  width: 30px;
+  margin-left: 6%;
+}
+.doss-item-element {
+  /* padding: 30px; */
+  justify-content: space-evenly;
+}
+.doss-card {
+  background: #111d2d;
+  top: 10%;
+  width: 290px;
+  height: 360px;
+}
+
+.doss-card-body .doss-img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.doss-title {
+  font-family: "Assistant", sans-serif;
+  font-size: 24px;
+  color: #ff6a5c;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.doss-text {
+  font-family: "Assistant", sans-serif;
+  color: #fff;
+  width: 228px;
+}
+
+.doss-card-body {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.doss-card-last {
+  background-color: #ff6a5c;
+
+  width: 290px;
+  height: 360px;
+}
+
+.doss-text-last {
+  font-family: "Assistant", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+}
+.doss-small-text {
+  font-family: "Assistant", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.doss-card-button {
+  background-color: #fff;
+  color: #ff6a5c;
+  font-size: 15px;
+  padding: 7px 20px;
+  font-weight: 700;
+  border: none;
+}
+.lab-card {
+  background-color: #0b131e;
+  padding-top: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.lab-card-bg {
+  background-image: url("/img/Bitmap (9).png");
+  background-size: cover;
+  width: 100%;
+  /* height: 700px; */
+  align-items: center;
+}
+.lab-card-title {
+  font-family: "Assistant", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #fff;
+}
+.lab-dash {
+  width: 30px;
+  border: 2px solid #ff6a5c;
+  margin: auto;
+}
+.lab-card-text {
+  font-family: "Assistant", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  /* margin: 10px 50px 30px 50px; */
+}
+.lab-card-details {
+  padding: 40px;
+}
+
+.news-title {
+  font-family: "Assistant", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+}
+.news-dash {
+  width: 30px;
+  border: 2px solid #ff6a5c;
+  margin-bottom: 5rem;
+}
+.news-element {
+  justify-content: center;
+  align-items: center;
+}
+.news-body {
+  height: 280px;
+  padding: 30px 20px 0 30px;
+}
+.second-news-card {
+  background-image: url("/img/Bitmap (10).png");
+  background-size: cover;
+  background-position: center;
+}
+.news-text {
+  font-family: "Assistant", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+.formazione-card {
+  background-color: #0b131e;
+  height: 43vh;
+}
+.formazione-card-bg1 {
+  background-image: url("/img/Rectangle.png");
+  background-size: cover;
+  height: 42vh;
+  width: 100%;
+}
+.formazione-card-bg2 {
+  background-image: url("/img/bg-custom.png");
+  background-size: cover;
+  background-position: center;
+  height: 42vh;
+  width: 100%;
+}
+
+.formazione-content {
+  padding: 20px 0 0 40px;
+}
+
+.footer {
+  background-color: #0b131e;
+}
+.footer-element {
+  justify-content: space-evenly;
+}
+
+.form-header {
+  font-family: "Assistant", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.input {
+  background-color: #0b131e;
+}
+.iscriviti-button {
+  background-color: #ff6a5c;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+}
+
+.checkbox {
+  display: block;
+  position: relative;
+  margin-top: 20px;
+  padding-left: 15px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ff6a5c;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #ff6a5c;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.checkbox-condition {
+  font-family: "Assistant", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.footer-last-item {
+  text-align: center;
+}
+
+.footer-contact {
+  font-family: "Assistant", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.footer-address {
+  font-family: "Assistant", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.social-item {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 20px;
+}
+.social-item > a {
+  color: #fff;
+}
+
+.footer-servizi {
+  font-family: "Assistant", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.footer-servizi-text {
+  font-family: "Assistant", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.service-item {
+  list-style: none;
+}
+.service-item > a {
+  font-family: "Assistant", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-last {
+  font-family: "Assistant", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 5rem;
+}
